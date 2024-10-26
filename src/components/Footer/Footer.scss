@@ -1,0 +1,72 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+
+    .logoqa{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+            @media(max-width: 768px){
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+
+
+        .logobutton{
+            // border: 2px solid white;
+            button{
+                background: #FF520E;
+
+            }
+        }
+
+        .quickactions{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 50px;
+            // border: 2px solid white;
+            // min-width: 400px;
+            justify-content: space-between;
+            .quickaction{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                // border: 2px solid orange;
+                min-width: 10rem;
+                .linktag{
+                text-decoration: none;
+                outline: none;
+                color: inherit;
+                }
+
+            }
+        }
+    }
+    .location{
+        width: 80%;
+        margin: 20px auto;
+
+    }
+    .blurred-div {
+        position: absolute;
+        z-index: -1;
+        margin: -200px 114px 0 45px;
+        width: 1047px;
+        height: 212px;
+        max-width: 80%;
+        background-color: #FF520E; /* Set background color to orange */
+        justify-content: center; /* Center text horizontally */
+        align-items: center; /* Center text vertically */
+        filter: blur(100px); /* Apply Gaussian blur */
+        border-radius: 80px; /* Optional: Add rounded corners */
+        opacity: 0.5; /* Adjust opacity to 70% */
+        }
+}

@@ -1,0 +1,17 @@
+.language-switcher {
+    margin-left: 20px; /* Adjust to align properly */
+    display: inline-block;
+  }
+  
+  .language-switcher button {
+    margin-right: 5px; /* Adjust button spacing */
+    background-color: #f0f0f0;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .language-switcher button:hover {
+    background-color: #ddd;
+  }
+  

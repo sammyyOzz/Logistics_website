@@ -1,0 +1,41 @@
+.services{
+    display: flex;
+    gap: 30px;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 100px 40px 100px 40px;
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .service{
+    color: white;
+    gap: 10px;
+    border: 1px solid #3D3D3D;
+    border-radius: 10px;
+    max-width: 300px;
+
+    .subtitle{
+        display: flex;
+        gap: 15px;
+        margin: 30px;
+        font-size: 20px;
+        img{
+            border-radius: 50%;
+        }
+        p{
+           @media (max-width:768px) {
+            font-size: 20px;
+           } 
+        }
+
+    }
+    .description{
+        margin: 30px 30px 80px 30px;
+        color: #D6D6D6;
+
+
+    }
+    }
+}

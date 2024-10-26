@@ -1,0 +1,50 @@
+.ourteam{
+    color: white;
+    flex-direction: column;
+    gap: 30px;
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+
+    .ourteamtitle{
+        text-align: center;
+        font-size: 48px;
+        @media (max-width:768px) {
+            font-size: 32px;
+        }
+    }
+
+    p{
+        text-align: center;
+        color: #D6D6D6;
+        @media (max-width:768px) {
+            font-size: 14px;
+        }
+    }
+
+    .teamimages{
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        margin: auto;
+        padding-top: 20px;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        // @media(max-width: 1024px) and (min-width: 768px) {
+        //     max-width: 100%;
+        // }
+        img{
+            display: flex;
+            width: 10rem;
+            height: auto;
+            border-radius: 20px;
+            flex-wrap: wrap;
+            @media (max-width: 768px) {
+                max-width: 70%; /* Adjust size for smaller screens */
+            }
+        
+
+
+        }
+    }
+}

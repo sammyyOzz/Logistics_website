@@ -1,0 +1,100 @@
+.tracking-page {
+    // width: 400px;
+    height: 100%;
+    margin: 0 auto;
+    // background-color: #ffffff;
+    color: white;
+    font-family: "Inter", sans-serif;
+
+  }
+  
+  .tracking-page h1 {
+    text-align: center;
+  }
+
+  .tracking-page .Details{
+    display: flex;
+    // width: 80%;
+    // border: 2px solid white;
+    justify-content: space-around;
+
+    .senderDetails{
+    // border: 2px solid white;
+    // display: block;
+    
+      .senderheader{
+        font-size: 26px;
+        // font-weight: bold;
+      }
+      .senderDetail{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        border: 2px solid gray;
+        border-radius: 5px;
+        padding: 20px;
+        
+        p span{
+          color: grey;
+          display: block;}    
+      }
+    }
+    .receiverDetails{
+
+      .receiverheader{
+        font-size: 26px;
+      }
+      .receiverDetail{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        border: 2px solid gray;
+        border-radius: 5px;
+        padding: 20px;
+        
+        p span{
+          color: grey;
+          display: block;
+        }
+      }
+    }
+  }
+  .receiverDetails{
+    // border: 2px solid grey;
+  }
+  .tracking-page .mainheader {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+  }
+  .tracking-page form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .tracking-page input {
+    padding: 8px;
+    margin-right: 10px;
+    width: 250px;
+  }
+  
+  .tracking-page button {
+    padding: 10px;
+  }
+  
+  .tracking-info h2 {
+    color: white; // Ensure this is visible
+  }
+  
+  .tracking-info ul {
+    list-style-type: none;
+  }
+  
+  .tracking-info li {
+    margin-bottom: 5px;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+  }
+  

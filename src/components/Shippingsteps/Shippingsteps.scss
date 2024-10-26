@@ -1,0 +1,80 @@
+.shippingsteps{
+    display: flex;
+    color: white;
+    // flex-direction: column;
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+    margin: 0 0 100px 0;
+    flex-direction: column;
+    align-items: center;
+        .shippingstepstitle{
+        text-align: center;
+        font-size: 48px;
+        // margin: 0 0 100px 0;
+        // border: 1px solid white;
+        @media (max-width: 768px){ 
+            font-size: 32px;
+        }
+    }
+
+    .shippingstep1{
+        display: flex;
+        // gap: 20px;
+        width: fit-content;
+        // border: 1px solid white;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        .shippingstep{
+            padding: 30px;
+            min-width: 300px;
+            max-width: 300px;
+            flex-wrap: wrap;
+            // border: 1px solid red;
+
+            .stepscount{
+                color: #FF520E;
+            }
+
+            .shippingstepssubtitle{
+                font-size: 20px;
+            }
+
+            ul{
+                color: #D6D6D6;
+                // max-width: 80%;
+            }
+        }
+    }
+    .shippingstep2{
+        display: flex;
+        // gap: 20px;
+        width: fit-content;
+        // border: 1px solid white;
+        flex-wrap: wrap;
+        justify-content: center;
+
+   
+        .shippingstep{
+            padding: 30px;
+            min-width: 300px;
+            max-width: 300px;
+            flex-wrap: wrap;
+            // border: 1px solid red;
+
+            .stepscount{
+                color: #FF520E;
+            }
+            
+            .shippingstepssubtitle{
+                font-size: 20px;
+            }
+
+            ul{
+                color: #D6D6D6;
+                // max-width: 80%;
+            }
+        }
+    }
+
+}
