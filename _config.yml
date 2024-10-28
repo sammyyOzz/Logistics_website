@@ -1,5 +1,0 @@
-title: My Website
-description: A description of my website.
-baseurl: "/Logistics_website" # the subpath of your site, e.g. /blog
-url: "https://Oparachibuikem.github.io" # the base hostname & protocol for your site
-theme: jekyll-theme-primer # example theme
