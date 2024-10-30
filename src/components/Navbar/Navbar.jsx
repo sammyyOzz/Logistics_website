@@ -11,6 +11,7 @@ export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false); // Hamburger menu state
   const ipinfoToken = import.meta.env.VITE_IPINFO_TOKEN;
 
+  // yoo
   // Function to toggle menu on hamburger click
   const toggleMenu = () => {
     setMenuOpen((prev) => !prev); // Toggle the menu open/close state
