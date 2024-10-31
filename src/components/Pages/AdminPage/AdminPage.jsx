@@ -50,7 +50,7 @@ const AdminPage = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/admin/generate-tracking",
+        "https://logistics-website-hvug.onrender.com/",
         trackingData
       );
 

@@ -10,7 +10,6 @@
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
-  "proxy": "http://localhost:5000",
   "dependencies": {
     "axios": "^1.7.7",
     "cors": "^2.8.5",
