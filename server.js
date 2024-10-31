@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
-import bodyParser from "body-parser"; // Add body-parser to parse form data
+import bodyParser from "body-parser"; // Add body-parser to parse form
+import path from "path";
 
 // Initialize express
 const app = express();
