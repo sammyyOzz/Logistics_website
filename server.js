@@ -4,7 +4,7 @@ import bodyParser from "body-parser"; // Add body-parser to parse form data
 
 // Initialize express
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors());
